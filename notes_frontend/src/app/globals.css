@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* App brand & style variables */
+:root {
+  --color-primary: #2563eb;
+  --color-secondary: #64748b;
+  --color-accent: #d97706;
+  --color-background: #fff;
+}
+
+.text-primary { color: var(--color-primary); }
+.text-secondary { color: var(--color-secondary); }
+.text-accent { color: var(--color-accent); }
+.bg-primary { background: var(--color-primary); }
+.bg-accent { background: var(--color-accent); }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--color-background);
+  color: var(--color-primary);
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
