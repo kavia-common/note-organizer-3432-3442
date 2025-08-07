@@ -1,11 +1,18 @@
 @import "tailwindcss";
 
+/* App brand & style variables */
 :root {
-  --color-primary: #000000;
-  --color-secondary: #FFFFFF;
-  --color-accent: #3B82F6;
-  --color-background: #FFFFFF;
+  --color-primary: #2563eb;
+  --color-secondary: #64748b;
+  --color-accent: #d97706;
+  --color-background: #fff;
 }
+
+.text-primary { color: var(--color-primary); }
+.text-secondary { color: var(--color-secondary); }
+.text-accent { color: var(--color-accent); }
+.bg-primary { background: var(--color-primary); }
+.bg-accent { background: var(--color-accent); }
 
 * {
   box-sizing: border-box;
